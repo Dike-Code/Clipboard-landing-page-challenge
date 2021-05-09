@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root{
+    /*primary*/
+    --strong-cyan:#26baa4;
+    --light-blue:#6173ff;
+    
+    /*neutral*/
+    --dark-greyish-blue:#4c545d;
+    --grayish-blue:#e4e4e4;
+}
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+    
+/*universal selectors*/
+body{
+    font-family: Bai Jamjuree, sans-serif;
+    background:#fff;
+    line-height:1.6;
+    font-size:1rem;
+    overflow-x:hidden;
+}
+
+ul{
+    list-style-type:none;
+}
+/*
+img{
+    width:100%;
+}
+*/
+
+/*header*/
+.header{
+    background:url("/images/bg-header-desktop.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align:center;
+    font-size:18px;
+}
+
+.header .logo{
+    padding:3em 0;
+}
+
+.header .head_title{
+    font-size:3rem;
+    font-weight:400;
+    color:var(--dark-greyish-blue);
+    margin:10px auto
+
+}
+
+.header .head_text{
+    width:60%;
+    font-size:1.3rem;
+    font-weight:400;
+    color:var(--dark-greyish-blue);
+    margin:10px auto
+}
+
+.header .head_btn_green{
+    display:inline-block;
+    background: var(--strong-cyan);
+    color:#fff;
+    text-decoration:none;
+    margin:20px auto;
+    padding:15px 25px;
+    border-radius:50px;
+    cursor:pointer;
+}
+.header .head_btn_blue{
+    display:inline-block;
+    background: var(--light-blue);
+    color:#fff;
+    margin:20px auto;
+    padding:16px 25px;
+    border-radius:50px;
+    text-decoration:none;
+    cursor:pointer;
+}
+/*Header ends here!!*/
+
+/*Subhead*/
+
+.sub_head{
+    margin:80px auto;
+}
+
+.sub_head .flex{
+    justify-content:center;
+    flex-direction:column;
+}
+
+.sub_head .sub_title{
+    font-size:2rem;
+    font-weight:600;
+    color:var(--dark-greyish-blue)
+}
+
+.sub_head .sub_text{
+    width:60%;
+    font-size:1.2rem;
+    font-weight:400;
+    color:var(--dark-greyish-blue);
+}
+
+/*Subhead Ends Here*/
+
+/*Computer_Hero*/
+
+.computer_hero{
+    margin-bottom:20px;
+    padding:5px;
+    
+}
+
+.computer_hero .grid{
+    grid-template-columns:2fr 1fr;
+    gap:50px;
+   
+}
+
+.computer_hero .computer{
+    width:90%;
+}
+
+.computer_hero .hero_title{
+    font-size:2rem;
+    font-weight:400;
+    margin-top:40px;
+    text-align:left;
+    color:var(--dark-greyish-blue);
+}
+
+.computer_hero .hero_text{
+    font-size:1rem;
+    font-weight:400;
+    text-align:left;
+    color:var(--dark-greyish-blue);
+}
+
+/*End of Hero section*/
+
+/*Showcase */
+
+.device_showcase{
+    margin:20px auto;
+    padding:5px;
+}
+.device_showcase .flex{
+    justify-content:center;
+    flex-direction:column;
+}
+
+.device_showcase .show{
+    margin:50px auto;
+}
+
+.device_showcase .show_title{
+    font-size:2.5rem;
+    font-weight:600;
+    color:var(--dark-greyish-blue);
+   
+}
+
+.device_showcase .show_text{
+    width:60%;
+    font-size:1.2rem;
+    font-weight:400;
+    color:var(--dark-greyish-blue);
+    margin:10px auto;
+}
+
+
+.device_showcase .device{
+    width:75%;
+}
+
+.workflow{
+    margin:20px auto;
+}
+
+.workflow .flex{
+    justify-content:space-between;
+}
+
+.workflow .work_title{
+    font-size:2rem;
+    font-weight:600;
+    color:var(--dark-greyish-blue);
+    margin:50px auto;
+    text-align:center;
+}
+
+.workflow h3{
+    font-size:1.5rem;
+    font-weight:600;
+    color:var(--dark-greyish-blue);  
+}
+
+.workflow .workflow_text{
+    font-size:1.2rem;
+    font-weight:400;
+    color:var(--dark-greyish-blue);  
+}
+
+.workflow .workflow_box{
+    width:40%;
+    margin:20px 20px;
+}
+
+/*End of Workflow*/
+
+/*site*/
+
+.site{
+    margin:100px auto;
+}
+
+.site .flex{
+    justify-content:space-evenly;
+}
+
+.site .box{
+    margin:auto;
+}
+
+/*End of site*/
+
+/*Clipboard*/
+
+.clipboard{
+    margin:100px auto;
+}
+
+.clipboard .clip_title{
+    font-size:3rem;
+    font-weight:400;
+    color:var(--dark-greyish-blue);
+    margin:10px auto
+
+}
+
+.clipboard .clip_text{
+    width:60%;
+    font-size:1.3rem;
+    font-weight:400;
+    color:var(--dark-greyish-blue);
+    margin:10px auto
+}
+
+.clipboard .clip_btn_green{
+    display:inline-block;
+    background: var(--strong-cyan);
+    color:#fff;
+    text-decoration:none;
+    margin:20px auto;
+    padding:15px 25px;
+    border-radius:50px;
+    cursor:pointer;
+}
+.clipboard .clip_btn_blue{
+    display:inline-block;
+    background: var(--light-blue);
+    color:#fff;
+    margin:20px auto;
+    padding:16px 25px;
+    border-radius:50px;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+/*footer*/
+.footer{
+    background:var(--grayish-blue);
+    padding-top:20px;
+}
+
+.footer .flex{
+    justify-content:space-between;
+    padding:20px 0;
+}
+
+.footer .logo{
+    width:5%;
+}
+
+.footer .text{
+    align-self:flex-start;
+}
+
+.footer .footer_text{
+    margin:10px auto;
+    text-align:left;
+    transition:color 0.5s ease;
+    cursor:pointer;
+}
+
+.footer .footer_text:hover{
+    color:var(--strong-cyan);
+    transition:color 0.5s ease
+}
+
+.footer .social{
+    display:flex;
+}
+
+.footer .social_link{
+    margin:0 20px;
+    transition:color 0.5s ease;
+    cursor:pointer;
+}
+
+.footer .attribution{
+    text-align:center;
+}
+
+
+/*Media Query section for mobile*/
+
+@media(max-width:968px){
+    .computer_hero .grid{
+        grid-template-columns:1fr;
+    }
+
+    .computer_hero .hero_title,
+    .computer_hero .hero_text{
+        margin:auto;
+        text-align:center;
+        color:var(--dark-greyish-blue);
+    }
+
+    .workflow .flex,
+    .site .flex,
+    .footer .flex{
+        justify-content:space-between;
+        flex-direction:column;
+    }
+
+    .workflow .workflow_box,
+    .header .head_text,
+    .sub_head .sub_text,
+    .device_showcase .show_text,
+    .clipboard .clip_text{
+        width:80%;
+    }
+
+    .site .box{
+        margin:40px auto;
+    }
+
+    .footer .text{
+        align-self:center;
+    }
+
+    .footer .footer_text{
+        text-align:center;
+        margin:20px auto;
+    }
+  
+}
+
+@media(max-width:990px){
+    .computer_hero .hero_title{
+        margin-top:10px;
+    }
+}
