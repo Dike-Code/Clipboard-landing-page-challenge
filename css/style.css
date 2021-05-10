@@ -19,7 +19,7 @@
 /*universal selectors*/
 body{
     font-family: Bai Jamjuree, sans-serif;
-    background:#fff;
+    background:#cccccc;
     line-height:1.6;
     font-size:1rem;
     overflow-x:hidden;
@@ -36,7 +36,7 @@ img{
 
 /*header*/
 .header{
-    background:url("/images/bg-header-desktop.png");
+    background:url("./images/bg-header-desktop.png");
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
