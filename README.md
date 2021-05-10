@@ -127,7 +127,7 @@ The sole area I'd like to focus more on is that of Css ::before and after psuedo
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Dike-Code](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@Dike_O_Clinton](https://www.twitter.com/Dike_O_Clinton)
 
 
