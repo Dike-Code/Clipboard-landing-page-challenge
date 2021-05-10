@@ -36,7 +36,7 @@ img{
 
 /*header*/
 .header{
-    background:url("./images/bg-header-desktop.png");
+    background:url(".../images/bg-header-desktop.png");
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
